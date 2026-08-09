@@ -1,0 +1,35 @@
+name: Inject Build Version and Deploy
+
+on:
+  push:
+    branches:
+      - main # Change this to master if needed
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # Swaps the placeholder text with the actual unique GitHub Build Run Number
+      - name: Inject Build Version
+        run: |
+          sed -i 's/{{BUILD_VERSION}}/v1.0.${{ github.run_number }}/g' index.html
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
+
