@@ -7,6 +7,23 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+.royal-text {
+  color: rgb(120, 81, 169);
+}
+
+/* Example 2: Applying to a background */
+.royal-background {
+  background-color: rgb(120, 81, 169);
+}
+
+.onroyal-text {
+  color: rgb(#EBE6F6);
+}
+
+/* Example 2: Applying to a background */
+.onroyal-background {
+  background-color: rgb(#EBE6F6);
+}
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -31,8 +48,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;}
 
 body {
-	/*font-family: "Josefin Sans", Helvetica, sans-serif;*/
-	font-family: "Italiana";
+	font-family: "Josefin Sans", Helvetica, sans-serif;
+	/*font-family: "Italiana";*/
 	font-weight: 100;
 	font-size: 1rem;
 	line-height: 1.65;
