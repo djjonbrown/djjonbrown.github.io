@@ -202,9 +202,9 @@ input, select, textarea {
 		}
 
 		p.wordmark {
-			font-family: "Italiano", serif;
+			font-family: "Italiana", serif;
 			font-optical-sizing: auto;
-			font-weight: 300;
+			font-weight: 100;
 			line-height: 1.375;
 			letter-spacing: -0.05em;
 			text-transform: uppercase;
