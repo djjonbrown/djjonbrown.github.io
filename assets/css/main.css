@@ -3688,7 +3688,7 @@ input, select, textarea {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: inherit;
+			background-color: rgba(255, 255, 255, 0.6);
 			border-radius: 0.5rem;
 			margin-bottom: 2rem;
 			z-index: 1;
