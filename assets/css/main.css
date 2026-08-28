@@ -8,8 +8,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 :root {
-	--brand-primary: rgb(120, 81, 169);
+	--brand-primary: #002E41;
 	--brand-onPrimary: #EBE6F6;
+}
+.light-text {
+	color: var(--brand-onPrimary);
+}
+.pad-bottom{
+	padding-bottom:1rem;
 }
 
 html, body, div, span, applet, object,
@@ -37,7 +43,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	font-family: "Josefin Sans", Helvetica, sans-serif;
 	/*font-family: "Italiana";*/
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 1rem;
 	line-height: 1.65;
 }
@@ -8581,7 +8587,7 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: #30363d;
+			background-color: #002E41;
 		}
 
 		#wrapper > .color2 {
