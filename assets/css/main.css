@@ -7231,7 +7231,11 @@ input, select, textarea {
 		.gallery.lightbox .modal .inner img {
 			max-width: 100vw;
 		}
-
+		
+		.gallery.lightbox .modal:before {
+			visibility: visible;
+			opacity: 1;
+		}
 	}
 
 	.gallery article .image {
