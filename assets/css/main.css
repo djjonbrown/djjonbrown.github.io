@@ -6862,6 +6862,7 @@ input, select, textarea {
 		}
 
 			.gallery.style2 > .forward:before {
+				font-family: "Font Awesome 5 Free";
 				content: '\f105';
 				right: 0;
 			}
@@ -6872,6 +6873,7 @@ input, select, textarea {
 		}
 
 			.gallery.style2 > .backward:before {
+				font-family: "Font Awesome 5 Free";
 				content: '\f104';
 				left: 0;
 			}
