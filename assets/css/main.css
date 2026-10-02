@@ -7231,8 +7231,8 @@ input, select, textarea {
 		.gallery.lightbox .modal .inner img {
 			max-width: 100vw;
 		}
-
-		.gallery.lightbox .modal:first-child  {
+		
+		.gallery.lightbox .modal:before {
 			visibility: visible;
 			opacity: 1;
 		}
