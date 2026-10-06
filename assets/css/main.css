@@ -6966,6 +6966,11 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
+				/* Sold Child Lit */
+				.gallery.style2 article.sold .caption {
+					opacity: 1;
+				}
+
 			.gallery.style2 article:hover .caption {
 				opacity: 1;
 			}
